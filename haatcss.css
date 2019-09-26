@@ -1,0 +1,225 @@
+
+.loginform{
+    font-size:25px; 
+}
+        p{
+            font-size:26px;   
+        }
+        marquee{
+            font-size: 40px;
+            color: brown;
+        }
+        body 
+            {
+           margin :0;
+            background-color: ivory;
+            }
+       
+  .form-control
+  {
+	  margin-top:9px;
+	  margin-left:30px;
+	  border:none;
+	  border-top-left-radius:20px;
+	   border-bottom-left-radius:20px;
+	    border-top-right-radius:0px;
+		 border-bottom-right-radius:0px;
+		 box-shadow:none;
+		 font-size:16px;
+}
+.searchbutton{
+background: orange;
+border:none;
+margin:8.5px 10px 3px 0;
+ border-top-left-radius:0px;
+	   border-bottom-left-radius:0px;
+	    border-top-right-radius:20px;
+		 border-bottom-right-radius:20px;
+ font-size:19px;
+cursor:pointer;
+
+}
+.search-box{
+float:right;
+ padding:0;
+}
+
+.fa-search{
+color:white;
+
+}
+.navbar {
+	
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: #333;
+}
+ .navbar a.active 
+     {
+      background-color:#4CAF50;
+      color:white;
+      }
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #4CAF50;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+ /* Three columns side by side */
+.column {
+  float: left;
+  width: 33.3%;
+  margin-top:10px;
+  margin-bottom: 16px;
+  padding: 0 0px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: red;
+} 
+
+
+
+
+.imageslide{
+    margin: 0px auto ; 
+  width:100%; 
+  height:500px; 
+  text-align: center; 
+    
+    //  width:100%;
+    //margin-bottom:150px;
+    //align-content: center;
+ 
+  //height:480px;
+  positiion :absolute;
+background-image: url('image/slide1.jpg');
+background-size: 100% 100%;
+box-shadow: 5px 5px 20px grey;
+animation: slider 9s infinite linear;
+}
+@keyframes slider{
+    0%{
+        background-image: url('image/slide1.jpg');
+    }
+     35%{
+         background-image: url('image/slide2.jpg');
+    }
+     75%{
+         background-image: url('image/slide3.jpg');
+    }
+}
+imageslide :hover{
+    
+}
+
+
+
+.foot{
+   
+background-color:grey;
+}
+      .contact{
+		  float:left;
+		 
+		 text-align:center; 
+	  }	
+.store{
+
+padding-left: 30%;
+
+}	
